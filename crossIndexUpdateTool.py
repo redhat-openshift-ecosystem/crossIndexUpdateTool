@@ -320,7 +320,7 @@ def generate_filename_suffix(**kwargs):
     if all(value is None for value in kwargs.values()):
         # "all" makes sense in that all the flags limit which operators are shown, or hide complexity,
         # if there are none, we're reporting "all"
-        suffix = "all"
+        suffix += "all"
     else:
         for flag, value in zip(kwargs.keys(), kwargs.values()):
             if value is not None:
