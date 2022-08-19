@@ -36,6 +36,12 @@ will run a report and output as markdown (`--output=html` for HTML output, or le
 
 will run a report and output simple 'Yes' or 'No' for whether operator is EUS maintained in the range.
 
+    `python3 crossIndexUpdateTool.py 4.8 4.10 --hosted-url=""`
+
+will run a report where anchor HREFs do not have a host element. Default is 
+`https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/`, so leave this option unset to use the Github Pages location.
+If specifying another URL, include the trailing slash.
+
 ---
 In the repo, `resource/index` contains the Red Hat Operator indexes which are
 the databases with the package and bundle information.

@@ -1,97 +1,95 @@
-|  Operator |  EUS Maintained from OpenShift Index 4.8 to 4.10 |
+| <br><h1>Operator</h1><br> | <br><h1>EUS Maintained from OpenShift Index 4.8 to 4.10</h1><br> |
 | :--- | :--- |
-| 3scale-operator | Yes |
-| advanced-cluster-management | Yes |
-| amq-broker | No |
-| amq-broker-lts | No |
-| amq-broker-rhel8 | Yes |
-| amq-online | Yes |
-| amq-streams | Yes |
-| amq7-cert-manager-operator | No |
-| amq7-interconnect-operator | Yes |
-| ansible-automation-platform-operator | Yes |
-| ansible-cloud-addons-operator | Yes |
-| apicast-operator | Yes |
-| aws-efs-csi-driver-operator | No |
-| businessautomation-operator | Yes |
-| cincinnati-operator | Yes |
-| cluster-kube-descheduler-operator | Yes |
-| cluster-logging | Yes |
-| clusterresourceoverride | Yes |
-| codeready-workspaces | Yes |
-| codeready-workspaces2 | Yes |
-| compliance-operator | Yes |
-| container-security-operator | Yes |
-| costmanagement-metrics-operator | Yes |
-| cryostat-operator | Yes |
-| datagrid | Yes |
-| devspaces | No |
-| devworkspace-operator | Yes |
-| dpu-network-operator | No |
-| eap | Yes |
-| elasticsearch-operator | Yes |
-| external-dns-operator | No |
-| file-integrity-operator | Yes |
-| fuse-apicurito | Yes |
-| fuse-console | Yes |
-| fuse-online | Yes |
-| gatekeeper-operator-product | Yes |
-| idp-mgmt-operator-product | Yes |
-| integration-operator | Yes |
-| jaeger-product | Yes |
-| jws-operator | Yes |
-| kiali-ossm | Yes |
-| klusterlet-product | Yes |
-| kubernetes-nmstate-operator | Yes |
-| kubevirt-hyperconverged | Yes |
-| local-storage-operator | Yes |
-| loki-operator | Yes |
-| mcg-operator | No |
-| metallb-operator | No |
-| metering-ocp | No |
-| mtc-operator | Yes |
-| mtv-operator | Yes |
-| multicluster-engine | Yes |
-| nfd | Yes |
-| node-healthcheck-operator | No |
-| node-maintenance-operator | No |
-| numaresources-operator | No |
-| ocs-operator | No |
-| odf-csi-addons-operator | No |
-| odf-lvm-operator | No |
-| odf-multicluster-orchestrator | No |
-| odf-operator | No |
-| odr-cluster-operator | No |
-| odr-hub-operator | No |
-| openshift-cert-manager-operator | No |
-| openshift-gitops-operator | Yes |
-| openshift-jenkins-operator | No |
-| openshift-pipelines-operator-rh | Yes |
-| openshift-secondary-scheduler-operator | No |
-| openshift-special-resource-operator | No |
-| opentelemetry-product | Yes |
-| performance-addon-operator | No |
-| poison-pill-manager | Yes |
-| ptp-operator | Yes |
-| quay-bridge-operator | Yes |
-| quay-operator | Yes |
-| red-hat-camel-k | Yes |
-| redhat-oadp-operator | Yes |
-| rh-service-binding-operator | Yes |
-| rhacs-operator | Yes |
-| rhpam-kogito-operator | Yes |
-| rhsso-operator | Yes |
-| sandboxed-containers-operator | Yes |
-| serverless-operator | Yes |
-| service-registry-operator | Yes |
-| service-telemetry-operator | No |
-| servicemeshoperator | Yes |
-| skupper-operator | Yes |
-| smart-gateway-operator | No |
-| sriov-network-operator | Yes |
-| submariner | Yes |
-| tang-operator | No |
-| vertical-pod-autoscaler | Yes |
-| volsync-product | Yes |
-| web-terminal | Yes |
-| windows-machine-config-operator | Yes |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#3scale-operator" id="3scale-operator">3scale-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#advanced-cluster-management" id="advanced-cluster-management">advanced-cluster-management</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#amq-broker" id="amq-broker">amq-broker</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#amq-broker-lts" id="amq-broker-lts">amq-broker-lts</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#amq-broker-rhel8" id="amq-broker-rhel8">amq-broker-rhel8</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#amq-online" id="amq-online">amq-online</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#amq-streams" id="amq-streams">amq-streams</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#amq7-cert-manager-operator" id="amq7-cert-manager-operator">amq7-cert-manager-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#amq7-interconnect-operator" id="amq7-interconnect-operator">amq7-interconnect-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#ansible-automation-platform-operator" id="ansible-automation-platform-operator">ansible-automation-platform-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#ansible-cloud-addons-operator" id="ansible-cloud-addons-operator">ansible-cloud-addons-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#apicast-operator" id="apicast-operator">apicast-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#aws-efs-csi-driver-operator" id="aws-efs-csi-driver-operator">aws-efs-csi-driver-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#businessautomation-operator" id="businessautomation-operator">businessautomation-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#cincinnati-operator" id="cincinnati-operator">cincinnati-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#cluster-kube-descheduler-operator" id="cluster-kube-descheduler-operator">cluster-kube-descheduler-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#cluster-logging" id="cluster-logging">cluster-logging</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#clusterresourceoverride" id="clusterresourceoverride">clusterresourceoverride</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#codeready-workspaces" id="codeready-workspaces">codeready-workspaces</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#codeready-workspaces2" id="codeready-workspaces2">codeready-workspaces2</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#compliance-operator" id="compliance-operator">compliance-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#container-security-operator" id="container-security-operator">container-security-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#costmanagement-metrics-operator" id="costmanagement-metrics-operator">costmanagement-metrics-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#cryostat-operator" id="cryostat-operator">cryostat-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#datagrid" id="datagrid">datagrid</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#devworkspace-operator" id="devworkspace-operator">devworkspace-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#dpu-network-operator" id="dpu-network-operator">dpu-network-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#eap" id="eap">eap</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#elasticsearch-operator" id="elasticsearch-operator">elasticsearch-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#external-dns-operator" id="external-dns-operator">external-dns-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#file-integrity-operator" id="file-integrity-operator">file-integrity-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#fuse-apicurito" id="fuse-apicurito">fuse-apicurito</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#fuse-console" id="fuse-console">fuse-console</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#fuse-online" id="fuse-online">fuse-online</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#gatekeeper-operator-product" id="gatekeeper-operator-product">gatekeeper-operator-product</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#idp-mgmt-operator-product" id="idp-mgmt-operator-product">idp-mgmt-operator-product</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#integration-operator" id="integration-operator">integration-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#jaeger-product" id="jaeger-product">jaeger-product</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#jws-operator" id="jws-operator">jws-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#kiali-ossm" id="kiali-ossm">kiali-ossm</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#klusterlet-product" id="klusterlet-product">klusterlet-product</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#kubernetes-nmstate-operator" id="kubernetes-nmstate-operator">kubernetes-nmstate-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#kubevirt-hyperconverged" id="kubevirt-hyperconverged">kubevirt-hyperconverged</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#local-storage-operator" id="local-storage-operator">local-storage-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#loki-operator" id="loki-operator">loki-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#mcg-operator" id="mcg-operator">mcg-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#metallb-operator" id="metallb-operator">metallb-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#metering-ocp" id="metering-ocp">metering-ocp</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#mtc-operator" id="mtc-operator">mtc-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#mtv-operator" id="mtv-operator">mtv-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#multicluster-engine" id="multicluster-engine">multicluster-engine</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#nfd" id="nfd">nfd</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#node-healthcheck-operator" id="node-healthcheck-operator">node-healthcheck-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#node-maintenance-operator" id="node-maintenance-operator">node-maintenance-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#numaresources-operator" id="numaresources-operator">numaresources-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#ocs-operator" id="ocs-operator">ocs-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#odf-csi-addons-operator" id="odf-csi-addons-operator">odf-csi-addons-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#odf-lvm-operator" id="odf-lvm-operator">odf-lvm-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#odf-multicluster-orchestrator" id="odf-multicluster-orchestrator">odf-multicluster-orchestrator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#odf-operator" id="odf-operator">odf-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#odr-cluster-operator" id="odr-cluster-operator">odr-cluster-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#odr-hub-operator" id="odr-hub-operator">odr-hub-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#openshift-cert-manager-operator" id="openshift-cert-manager-operator">openshift-cert-manager-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#openshift-gitops-operator" id="openshift-gitops-operator">openshift-gitops-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#openshift-jenkins-operator" id="openshift-jenkins-operator">openshift-jenkins-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#openshift-pipelines-operator-rh" id="openshift-pipelines-operator-rh">openshift-pipelines-operator-rh</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#openshift-secondary-scheduler-operator" id="openshift-secondary-scheduler-operator">openshift-secondary-scheduler-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#openshift-special-resource-operator" id="openshift-special-resource-operator">openshift-special-resource-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#opentelemetry-product" id="opentelemetry-product">opentelemetry-product</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#performance-addon-operator" id="performance-addon-operator">performance-addon-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#poison-pill-manager" id="poison-pill-manager">poison-pill-manager</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#ptp-operator" id="ptp-operator">ptp-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#quay-bridge-operator" id="quay-bridge-operator">quay-bridge-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#quay-operator" id="quay-operator">quay-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#red-hat-camel-k" id="red-hat-camel-k">red-hat-camel-k</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#redhat-oadp-operator" id="redhat-oadp-operator">redhat-oadp-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#rh-service-binding-operator" id="rh-service-binding-operator">rh-service-binding-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#rhacs-operator" id="rhacs-operator">rhacs-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#rhpam-kogito-operator" id="rhpam-kogito-operator">rhpam-kogito-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#rhsso-operator" id="rhsso-operator">rhsso-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#sandboxed-containers-operator" id="sandboxed-containers-operator">sandboxed-containers-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#serverless-operator" id="serverless-operator">serverless-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#service-registry-operator" id="service-registry-operator">service-registry-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#service-telemetry-operator" id="service-telemetry-operator">service-telemetry-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#servicemeshoperator" id="servicemeshoperator">servicemeshoperator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#skupper-operator" id="skupper-operator">skupper-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#smart-gateway-operator" id="smart-gateway-operator">smart-gateway-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#sriov-network-operator" id="sriov-network-operator">sriov-network-operator</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#submariner" id="submariner">submariner</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#tang-operator" id="tang-operator">tang-operator</a><br> | <br><p>No</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#vertical-pod-autoscaler" id="vertical-pod-autoscaler">vertical-pod-autoscaler</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#web-terminal" id="web-terminal">web-terminal</a><br> | <br><p>Yes</p><br> |
+| <br><a href="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/html_reports/cross_index_update_report_4.8-4.10_yes_no.html#windows-machine-config-operator" id="windows-machine-config-operator">windows-machine-config-operator</a><br> | <br><p>Yes</p><br> |
