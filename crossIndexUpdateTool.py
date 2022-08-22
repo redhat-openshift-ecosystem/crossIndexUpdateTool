@@ -248,6 +248,7 @@ def html_generate(operators_in_all, operators_exist, channel_updates, **kwargs):
     needs_attention_only = kwargs["needs_attention"]
     common_only = kwargs["common_only"]
     yes_no = kwargs["yes_no"]
+    host_url = kwargs["host_url"]
 
     with document(title='Cross Index Update Report') as doc:
         h1("Cross Index Update Report")
@@ -267,7 +268,10 @@ def html_generate(operators_in_all, operators_exist, channel_updates, **kwargs):
             row_cells = []
             with t.add(table_body):
                 table_row = tr()
-                table_row.add(td(a(operator_name, id='%s' % operator_name, href='#%s' % operator_name)))
+                suffix = generate_filename_suffix(**kwargs)
+                url = host_url + 'html_reports/cross_index_update_report_' + suffix + '.html'
+                href = url + "#" + operator_name
+                table_row.add(td(a(operator_name, id='%s' % operator_name, href='%s' % href)))
                 with table_row:
                     for default, channels, heads, max_ocps, idx_non_common in zip(
                             channel_update.default_channel_per_index,
@@ -316,6 +320,8 @@ def generate_filename_suffix(**kwargs):
     """
     use the keyword flags to make a suffix for the filename
     """
+    kwargs['host_url'] = None  # don't need in filename
+    kwargs['yes_no'] = None  # don't need in filename
     suffix = list(INDEXES)[0] + "-" + list(INDEXES)[-1] + "_"
     if all(value is None for value in kwargs.values()):
         # "all" makes sense in that all the flags limit which operators are shown, or hide complexity,
@@ -325,6 +331,8 @@ def generate_filename_suffix(**kwargs):
         for flag, value in zip(kwargs.keys(), kwargs.values()):
             if value is not None:
                 suffix += str(flag or '')
+                suffix += str("_")
+    suffix = suffix.rstrip('_')
     return suffix
 
 
@@ -337,9 +345,9 @@ def html_output(operators_in_all, operators_exist, channel_updates, **kwargs):
 
 def md_output(operators_in_all, operators_exist, channel_updates, **kwargs):
     doc = html_generate(operators_in_all, operators_exist, channel_updates, **kwargs)
-    mark_down = htmltabletomd.convert_table(doc.render(), content_conversion_ind=True, all_cols_alignment="left")
+    mark_down = htmltabletomd.convert_table(doc.render(), content_conversion_ind=False, all_cols_alignment="left")
     # library converting h1 to # in markdown and that won't work in the markdown table cells
-    mark_down = mark_down.translate({ord(i): None for i in '#'})
+    # mark_down = mark_down.translate({ord(i): None for i in '#'})
     suffix = generate_filename_suffix(**kwargs)
     with open('md_reports/cross_index_update_report_' + suffix + '.md', 'w', encoding="utf-8",
               errors="xmlcharrefreplace") as f:
@@ -431,10 +439,10 @@ def main(args):
 
     if args.output == "html":
         html_output(all_operators, all_operators_exist, all_channel_updates, needs_attention=args.needs_attention,
-                    common_only=args.common_only, yes_no=args.yes_no)
+                    common_only=args.common_only, yes_no=args.yes_no, host_url=args.host_url)
     else:
         md_output(all_operators, all_operators_exist, all_channel_updates, needs_attention=args.needs_attention,
-                  common_only=args.common_only, yes_no=args.yes_no)
+                  common_only=args.common_only, yes_no=args.yes_no, host_url=args.host_url)
 
 
 if __name__ == '__main__':
@@ -451,6 +459,9 @@ if __name__ == '__main__':
                              "without an operator published in all indexes will show as 'No'")
     parser.add_argument("--output", help="choose output style, default is `html`, or choose `md` for markdown.",
                         default="html")
+    parser.add_argument("--host-url", help="URL for where the reports are being hosted. Do include the trailing "
+                                           "slash. This affects anchor links.",
+                        default="https://redhat-openshift-ecosystem.github.io/crossIndexUpdateTool/")
     args = parser.parse_args()
 
     main(args)

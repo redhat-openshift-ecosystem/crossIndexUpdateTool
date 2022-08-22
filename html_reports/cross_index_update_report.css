@@ -40,6 +40,11 @@ h2 a {
 
 a { color: #EE0000; /* RH */ }
 
+a.package-name {
+    padding-top: 135px;
+    margin-top: -135px
+}
+
 .blue { color: #023D4F;  /* RH */}
 .yellow { color: #FFF842; }
 
@@ -88,6 +93,11 @@ a { color: #EE0000; /* RH */ }
 .container th {
     /*background-color: #1F2739;*/
     box-shadow: 0 2px 2px -2px #0e1119;
+
+    position: sticky;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 999;
 }
 
 .container td:first-child { color: #EE0000; /* RH */ }
