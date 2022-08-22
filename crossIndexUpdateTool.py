@@ -271,7 +271,7 @@ def html_generate(operators_in_all, operators_exist, channel_updates, **kwargs):
                 suffix = generate_filename_suffix(**kwargs)
                 url = host_url + 'html_reports/cross_index_update_report_' + suffix + '.html'
                 href = url + "#" + operator_name
-                table_row.add(td(a(operator_name, id='%s' % operator_name, href='%s' % href)))
+                table_row.add(td(a(operator_name, _class='package-name', id='%s' % operator_name, href='%s' % href)))
                 with table_row:
                     for default, channels, heads, max_ocps, idx_non_common in zip(
                             channel_update.default_channel_per_index,
