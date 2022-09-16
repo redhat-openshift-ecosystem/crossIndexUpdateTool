@@ -2,7 +2,3 @@ dominate==2.7.0
 htmltabletomd~=1.0.0
 packaging~=21.3
 utils
-xmltojson
-lxml~=4.9.1
-bs4~=0.0.1
-beautifulsoup4~=4.11.1
