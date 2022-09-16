@@ -5,9 +5,7 @@ import argparse
 import operator
 
 import htmltabletomd
-import xmltojson
-from bs4 import BeautifulSoup
-from lxml import etree as le
+import json
 
 from dominate import document
 from dominate.tags import *
@@ -360,30 +358,48 @@ def md_output(operators_in_all, operators_exist, channel_updates, **kwargs):
 
 def json_output(operators_in_all, operators_exist, channel_updates, **kwargs):
     doc = html_generate(operators_in_all, operators_exist, channel_updates, **kwargs)
-
-    # trying out manipulating XML tree for cleaner JSON with lxml lib, currently ignored
-    soup = BeautifulSoup(doc.render(), 'html.parser')
-    tr_only = soup.findAll("tr")
-    lines = soup.prettify().splitlines()
-    pretty_lines = "\n".join(lines[1:])
-    xml_tree = le.fromstring(pretty_lines)
-    delete_all_but_xml_elems(pretty_lines, xml_tree, ["foo"])
-
-    # just dump entire HTML as-is to JSON, current solution
-    json_ = xmltojson.parse(pretty_lines)
+    json_ = json_generate(operators_in_all, operators_exist, channel_updates)
     suffix = generate_filename_suffix(**kwargs)
     with open('json_reports/cross_index_update_report_' + suffix + '.json', 'w', encoding="utf-8",
               errors="xmlcharrefreplace") as f:
         f.write(str(json_))
 
 
-def delete_all_but_xml_elems(pretty_lines, xml_string, idlist):
-    pass
-    # rows = xml_string.xpath("/html/body/table/tr[@name='tr']")[0]
-    # for elem in rows.getchildren():
-    #     if int(elem.get("itemID")) not in idlist:
-    #         rows.remove(elem)
-    return xml_string
+def json_generate(operators_in_all, operators_exist, channel_updates):
+    """
+    optionally generate JSON for output.
+    """
+    indent = None
+    data = {"data": []}
+
+    for operator_name, operator_exists, channel_update in sorted(
+            zip(operators_in_all, operators_exist, channel_updates), key=operator.itemgetter(0)):
+        for index, (default, channels, heads, max_ocps, idx_non_common) in enumerate(zip(
+                channel_update.default_channel_per_index,
+                channel_update.channels,
+                channel_update.channel_heads,
+                channel_update.max_ocp_per_channel,
+                channel_update.non_common_channels)):
+            for channel, max_ocp, head in zip(channels, max_ocps, heads):
+                entry = {}
+                channel = channel[0]
+                if channel in channel_update.common_channels:
+                    isCommon = "true"
+                else:
+                    isCommon = "false"
+                if channel == default:
+                    channel += ' (default)'
+                head_bundle_version = head.replace(operator_name + ".", "")
+                if max_ocp is not None:
+                    head_bundle_version += " (maxOCP = " + max_ocp + ")"
+                entry['name'] = operator_name
+                entry['ocpVersion'] = list(INDEXES)[index]
+                entry['channel'] = channel
+                entry['currentVersion'] = head_bundle_version
+                entry['isCommon'] = isCommon
+
+                data["data"].append(entry)
+    return json.dumps(data, indent=indent)
 
 
 def render_channel_rows(channel_update, channels, default, heads, max_ocps, operator_name, table_data):
