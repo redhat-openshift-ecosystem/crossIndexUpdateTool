@@ -3,13 +3,8 @@
 import sqlite3 as sql
 import argparse
 import operator
-from typing import Dict, Union, List, Any
 
 import htmltabletomd
-import xmltojson
-from bs4 import BeautifulSoup
-from lxml import etree as le
-from collections import OrderedDict
 import json
 
 from dominate import document
